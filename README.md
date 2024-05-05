@@ -9,7 +9,8 @@ you are welcome here
 <br>
 
 <h2>Screenshot</h2>
-![Screenshot](https://github.com/hosein-khanalizadeh/RFI/blob/main/rfi.png)
+
+![Screenshot](https://github.com/hosein-khanalizadeh/MusicPlayer/blob/main/output.png)
 
 <div align="center">
 <h2>Tech Stack</h2>
