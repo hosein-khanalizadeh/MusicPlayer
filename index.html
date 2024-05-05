@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+    <div class="content">
+        <div dir="ltr" class="music-player" style="width: 100%;height: 300px">
+            <audio src="./musics/gomet_kardam.mp3" id="audio"></audio>
+            <div class="player-header">
+                <div class="image">
+                    <img src="./images/gomet_kardam.webp">
+                </div>
+                <div class="information">
+                    <div class="singers">shadmehr</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="player" style="width:80%;">
+                <div class="time-line" id="time-line">
+                    <div class="background"></div>
+                    <div class="fill" id="fill"></div>
+                    <div class="fill-btn" id="fill-btn"></div>
+                    <div id="left-width-time-line"></div>
+                    <div id="right-width-time-line"></div>
+                </div>
+                <div class="under-time-line">
+                    <span id="time-past">0:00</span>
+                    <span id="time-left">0:00</span>
+                </div>
+                <div class="buttons">
+                    <button class="player-btn" onclick="back_5()">
+                        <svg id="back-btn" width="40" height="40" class="bi bi-skip-start-circle-fill" viewBox="0 0 16 16"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM9.71 5.093 7 7.028V5.5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 1 0V8.972l2.71 1.935a.5.5 0 0 0 .79-.407v-5a.5.5 0 0 0-.79-.407z"></path></svg>
+                    </button>
+                    <button class="player-btn" onclick="play_and_pause()">
+                        <svg id="play-pause-btn" width="40" height="40" class="bi bi-play-circle-fill" viewBox="0 0 16 16"> <path id="play-pause-path" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"></path></svg>
+                    </button>
+                    <button class="player-btn" onclick="next_5()">
+                        <svg id="next-btn" width="40" height="40" class="bi bi-skip-end-circle-fill" viewBox="0 0 16 16"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407L9.5 8.972V10.5a.5.5 0 0 0 1 0v-5a.5.5 0 0 0-1 0v1.528L6.79 5.093z"></path></svg>
+                    </button>
+                </div>
+                <div class="volume-style">
+                    <div class="volume" id="volume">
+                        <div class="background"></div>
+                        <div class="fill"></div>
+                        <div class="fill-btn"></div>
+                        <div id="left-width-volume"></div>
+                        <div id="right-width-volume"></div>
+                        <div id="volume-value">100</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+ </body>
+ </html>
