@@ -12,7 +12,7 @@ you are welcome here
 
 ![Screenshot](https://github.com/hosein-khanalizadeh/MusicPlayer/blob/main/output.png)
 
-<div align="center">
+<div>
 <h2>Tech Stack</h2>
 </div>
 <div align="center">
